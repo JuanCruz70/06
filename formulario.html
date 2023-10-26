@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <!--Definimos un formulario-->
+        <form action="/destino" method="post">
+            <label for="">Usuario</label>
+            <input type="text" name="Usuario" id="Usuario">
+
+            <label for="Clave">Clave</label>
+            <input type="password" name="Clave" id="Clave">
+            <!-- placeholder permite colocar un label dentro del input-->
+            <input type="text" name="apellido" id="apellido"
+            placeholder="Ingrese apellido">
+
+            <div>
+                <h2>Equipos</h2>
+                <label for="river">River</label>
+                <input type="checkbox" name="Equipos" id="river" value="1">
+                <label for="boca">Boca</label>
+                <input type="checkbox" name="Equipos" id="boca" value="1">
+                <label for="ferro">Ferro</label>
+                <input type="checkbox" name="Equipos" id="ferro" value="1">
+            </div>
+            <div>
+                <h2>Comidas</h2>
+                <label for="comida">Hamburguesa</label>
+                <input type="radio" name="comida" id="hamburguesa">
+                <label for="comida">Milanesa</label>
+                <input type="radio" name="comida" id="milanesa">
+                <label for="comida">Pizza</label>
+                <input type="radio" name="comida" id="pizza">
+            </div>
+            <div>
+                <h2>Provincias</h2>
+                <label for="provincias">Provincias</label>
+                <select name="provincias" id="provincias"></select>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
